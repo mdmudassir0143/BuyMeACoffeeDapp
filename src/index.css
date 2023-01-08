@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Satisfy&display=swap');
 body {
+  background-color: rgb(255, 255, 255);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,137 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav{
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  width: 60%;
+  display: flex;
+  /* display: block; */
+  margin: auto;
+  /* z-index: 1; */
+  margin-top: 5vh;
+  padding: 7px;
+  border: 1px solid black;
+  box-shadow:3px 3px 5px;
+}
+.nav:hover{
+  background-color: #FFDD00;
+}
+
+.coffee{
+  align-items: center;
+  background-color: inherit;
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+}
+.faq{
+  margin-top: 10px;
+  font-weight: 600;
+  font-family: 'Satisfy', cursive;
+  /* margin-left: 40px; */
+  /* margin-top: 35px; */
+  /* text-align: center; */
+}
+.img-fluid{
+  /* margin-left: 100px; */
+  /* margin-top: 20px; */
+}
+.home{
+  background-color: #FDFDFD;
+  /* z-index: 0; */
+  min-height: 100vh;
+}
+
+.tagline{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 70px;
+  padding-bottom: 50PX;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+}
+.tag{
+  font-weight: 400;
+}
+
+.form-label{
+  color: #222222;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.head{
+  color: #222222;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.account{
+  color: #222222;
+  font-size: 20px;
+
+}
+
+.accounthead{
+  color: #222222;
+  text-align: center;
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: center;
+}
+
+.btn:disabled{
+  color: #222222;
+  border: 2px solid #FCF7E0 ;
+  background-color: #FFDD00;
+  /* float: right; */
+  box-shadow: 3px 3px 5px ;
+}
+
+.btn{
+  color: #222222;
+  border: 2px solid #FCF7E0 ;
+  background-color: #FFDD00;
+  /* float: right; */
+  box-shadow: 3px 3px 5px ;
+}
+.btn:hover{
+  background-color: #222222;
+  color: #FFDD00;
+}
+
+.address{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 50px;
+}
+.btnad{
+  /* align-items: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  text-align: center;
+  padding-top: 50px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+  
 }
